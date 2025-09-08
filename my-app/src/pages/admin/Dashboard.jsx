@@ -10,14 +10,19 @@ const dummyData = [
 ];
 
 export default function Dashboard() {
-  return (
-    <PageWrapper>
-      <AdminNavbar />
-      <main className="p-6">
-        <h2 className="text-2xl font-bold mb-4">Fleet Performance</h2>
-        <DataTable data={dummyData} />
-      </main>
-      <AdminFooter />
-    </PageWrapper>
-  );
+  console.log("Inside Dashboard component");
+  return <div>This is the Dashboard</div>;
 }
+
+// export default function Dashboard() {
+//   return (
+//     <PageWrapper>
+//       <AdminNavbar />
+//       <main className="p-6">
+//         <h2 className="text-2xl font-bold mb-4">Fleet Performance</h2>
+//         <DataTable data={dummyData} />
+//       </main>
+//       <AdminFooter />
+//     </PageWrapper>
+//   );
+// }
